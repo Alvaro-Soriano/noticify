@@ -13,5 +13,14 @@ app.get('/',(req, res) => {
 app.get('/freesearch',(req, res) => {
 	res.sendFile(path.join(__dirname, "frontend", "html", 'freesearch.html'));
 });
+app.get('/map',(req, res) => {
+	res.sendFile(path.join(__dirname, "frontend", "html", 'map.html'));
+});
+app.get('/stats',(req, res) => {
+	res.sendFile(path.join(__dirname, "frontend", "html", 'stats.html'));
+});
+app.get('/config',(req, res) => {
+	res.sendFile(path.join(__dirname, "frontend", "html", 'config.html'));
+});
 
 app.listen(port);
