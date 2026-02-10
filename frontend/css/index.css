@@ -57,6 +57,11 @@ header{
 	border-radius: 5px;
 }
 
+.TabCard:hover{
+	cursor: pointer;
+	filter: brightness(90%);
+}
+
 footer{
 	position: absolute;
 	bottom:0;
