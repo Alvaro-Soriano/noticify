@@ -81,3 +81,22 @@ footer{
 	color: hsl(0, 0%, 35%);
 
 }
+
+
+.titleReturn{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 25px;
+	gap:5px;
+	margin: 10px;
+	text-decoration: none;
+	color: hsl(0, 0%, 25%);
+	background-color: white;
+	border: 2px solid hsl(0 0% 85%);
+
+	padding: 5px 10px;
+	border-radius: 10px;
+	width: fit-content;
+	user-select: none;
+}
