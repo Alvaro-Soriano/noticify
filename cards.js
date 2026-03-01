@@ -12,7 +12,12 @@ class NotiCards extends HTMLElement{
 				font-family: "Sora", sans-serif;
 				font-optical-sizing: auto;
 				font-style: normal;
+				cursor:pointer;
 			}
+			.notiCard:hover{
+				filter: brightness(92%);
+			}
+
 
 			.notiCardText{
 				border: 2px solid hsl(0 0% 85%);
