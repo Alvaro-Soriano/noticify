@@ -69,9 +69,13 @@ main{
 	aside{
 		position: initial;
 		width: 100%;
+		border-right: none;
+	border-bottom: 1px solid hsl(0 0% 85%);
+
 	}
 	main{
 		margin-left: 0px;
+		height: fit-content;
 	}
 	
 }

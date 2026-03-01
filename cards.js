@@ -146,7 +146,6 @@ class NotiCards extends HTMLElement{
 
 		
 
-		console.log(notiIconType);
 
 
 	}
