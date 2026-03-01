@@ -47,7 +47,6 @@ class NotiCards extends HTMLElement{
 			}
 			.notiCardTitle{
 				font-size: 22px;
-
 				color: hsl(100 0% 20%);
 			}
 			.notiCardType{
@@ -70,7 +69,7 @@ class NotiCards extends HTMLElement{
 				font-size: 13px;
 				text-align: center;
 				border-radius: 10px;
-					background-color: hsl(0 0% 28%);
+					background-color: hsl(0 0% 25%);
 				color:white;
 			}
 			.tieneMap{
@@ -112,7 +111,15 @@ class NotiCards extends HTMLElement{
 		const zone = this.dataset.zone;
 		const sDate = this.dataset.startdate;
 		const eDate = this.dataset.enddate;
-		const col = this.dataset.color || " hsl(0 0% 85%)";
+		let color = '#1d6ebf';
+		const status = this.dataset.status || 'A'; 
+
+		if(status == 'M'){
+			color ='#703aa6';
+		}
+		if(status == 'C'){
+			color ='#E53935';
+		}
 
 		const circle = this.shadowRoot.querySelector('.circle');
 		const notiCardTitle = this.shadowRoot.querySelector('.notiCardTitle');
@@ -127,7 +134,9 @@ class NotiCards extends HTMLElement{
 		startDate.textContent = sDate;
 		endDate.textContent = eDate;
 
-		circle.style.setProperty('background-color',col,'important');
+
+
+		circle.style.setProperty('background-color',color,'important');
 
 
 		
@@ -137,4 +146,79 @@ class NotiCards extends HTMLElement{
 
 	}
 }
+
+class placeCard extends HTMLElement{
+	constructor(){
+		super();
+		this.attachShadow({ mode: "open" });
+		this.shadowRoot.innerHTML = `
+		<style>
+			@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css");
+			.placeCard{
+				display: flex;
+				border-radius: 10px;
+				font-family: "Sora", sans-serif;
+				font-optical-sizing: auto;
+				font-style: normal;
+				cursor:pointer;
+			}
+			.placeCard:hover{
+				filter: brightness(92%);
+			}
+
+			.placeCardText{
+					border: 2px solid hsl(0 0% 85%);
+					background-color: white;
+					width: 100%;
+					border-radius: 10px;
+					padding: 4px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					gap: 2px;
+					min-width: 0;
+					border-left: none;
+					border-top-left-radius: 0px;
+					border-bottom-left-radius: 0px;
+					font-size: 21px;
+					color: hsl(100 0% 20%);
+					font-weight: 500;
+			}
+			.placeCardIcon{
+				font-size: 30px;
+				padding: 10px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color:white;
+				background-color: #1d6ebf;
+				border-top-left-radius: 10px;
+				border-bottom-left-radius: 10px;
+			}
+		</style>
+		<div class="placeCard">
+			<div  class="placeCardIcon">
+				<i class="fa-solid"></i>
+			</div>
+			<div class="placeCardText">
+				
+			</div>
+		</div>
+		`;
+	}
+	connectedCallback(){
+		const placeCardIcon = this.shadowRoot.querySelector('.placeCardIcon > i');
+		placeCardIcon.classList.add(this.dataset.icon);
+
+		const placeCardText = this.shadowRoot.querySelector('.placeCardText');
+		placeCardText.textContent = this.dataset.label;
+
+		this.onclick = ()=>{
+			window.location = this.getAttribute('href') ?? '#';
+		}
+		
+	}
+}
+
 customElements.define('notice-card', NotiCards);
+customElements.define('place-card', placeCard);
