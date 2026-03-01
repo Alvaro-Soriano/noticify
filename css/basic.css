@@ -94,6 +94,7 @@ aside.navHidden {
 	aside{
 		width: 100%;
 		position: initial;
+		border-right: none;
 		border-bottom: 1px solid hsl(0 0% 85%);
 		overflow: clip;
 
@@ -143,5 +144,29 @@ aside.navHidden {
 	}
 
 
+	
+
+
+}
+
+
+.notiCardCont{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(0, 370px));
+	gap: 12px;
+}
+
+.simpleScaleCont{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+	padding-top: 10px;
+	gap:10px;
+}
+
+
+@media (max-width: 800px){
+.notiCardCont{
+		grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+	}
 
 }
