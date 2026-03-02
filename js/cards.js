@@ -74,7 +74,7 @@ class NotiCards extends HTMLElement{
 				font-size: 13px;
 				text-align: center;
 				border-radius: 10px;
-					background-color: hsl(0 0% 25%);
+				background-color: hsl(0 0% 25%);
 				color:white;
 			}
 			.tieneMap{

@@ -187,3 +187,37 @@ input,select {
 input:focus,select:focus{
 	border: 2px solid  hsl(0 0 45);
 }
+
+button{
+	outline: none;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5px;
+	border: 0px;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: 500;
+	background-color: hsl(0 0 99);
+	border: 2px solid hsl(0 0 80);
+	color:hsl(0 0 20);
+	width: 100%;
+
+}
+
+.blueButton{
+	background-color: #1d6ebf;
+	border: 2px solid #1d6ebf;
+	color:white;
+}
+.purpleButton{
+	background-color: #703aa6;
+	border: 2px solid #703aa6;
+	color:white;
+}
+.redButton{
+	background-color: #E53935;
+	border: 2px solid #E53935;
+	color:white;
+}
