@@ -224,5 +224,77 @@ class placeCard extends HTMLElement{
 	}
 }
 
+class statCard extends HTMLElement{
+	constructor(){
+		super();
+		this.attachShadow({ mode: "open" });
+		this.shadowRoot.innerHTML = `
+		<style>
+				.statsCard{
+					background-color: hsl(0 0 99);
+					border: 2px solid  hsl(0 0 70);
+					color: hsl(0 0 30);
+					padding: 5px;
+					font-weight: bold;
+					border-radius: 10px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					gap: 10px;
+				}
+				.blueCard{
+					background-color: #b3d9ff;
+					border: 2px solid #8cc6ff;
+					color: #0053a6;
+				}
+				.purpleCard{
+					background-color: #d2b3ff;
+					border: 2px solid #ba8cff;
+					color: #7c00a6;
+				}
+				.redCard{
+					background-color: #ffb3b3;
+					border: 2px solid #ff8c8c;
+					color: #a6000e;
+				}
+				.statsCardTitle{
+					font-size: 25px;
+					text-align: center;
+				}
+				.statsCardValue{
+					font-size: 40px;
+					text-align: center;
+				}
+		</style>
+		<div class="statsCard">
+			<div class="statsCardTitle">Avisos Activos</div>
+			<div class="statsCardValue">0</div>
+		</div>
+		`;
+	}
+	connectedCallback(){
+		const statsCard  = this.shadowRoot.querySelector('.statsCard');
+		const status = this.dataset.status;
+		const statsCardTitle = this.shadowRoot.querySelector('.statsCardTitle');
+		statsCardTitle.textContent = this.dataset.title;
+
+		const statsCardValue = this.shadowRoot.querySelector('.statsCardValue');
+		statsCardValue.textContent = this.dataset.value;
+
+		if(status == 'A'){
+			statsCard.classList.add('blueCard');
+		}
+		if(status == 'M'){
+			statsCard.classList.add('purpleCard');
+		}
+		if(status == 'C'){
+			statsCard.classList.add('redCard');
+		}
+		
+	}
+}
+
 customElements.define('notice-card', NotiCards);
 customElements.define('place-card', placeCard);
+customElements.define('stats-card', statCard);
