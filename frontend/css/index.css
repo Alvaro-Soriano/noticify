@@ -1,6 +1,17 @@
+.tituloPagina{
+	font-size: 37px !important;
+	padding: 10px !important;
+	padding-bottom: 0px !important;
+	margin: 0px !important;
+	font-weight: bold;
+	color: hsl(100 0% 19%);
+}
+
 .searchForm{
-	border-bottom: 2px solid hsl(0 0% 85%);
-	background-color: hsl(0 0% 99%);
+	border: 2px solid rgba(217, 217, 217, 0.6);
+	background-color:rgb(255, 255, 255, 0.95);
+	margin: 10px;
+	border-radius: 10px;
 
 }
 main{

@@ -152,8 +152,10 @@ aside.navHidden {
 
 .notiCardCont{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(0, 370px));
+	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 	gap: 12px;
+	padding: 10px;
+	padding-top: 20px;
 }
 
 .simpleScaleCont,.formScaleCont{
@@ -177,31 +179,32 @@ aside.navHidden {
 
 }
 label{
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: 600;
-		color:rgb(64, 64, 64);
+	color:hsl(0, 0%, 32%)
 }
 
 input,select,textarea {
 	width: 100%;
-	padding: 5px;
-	font-size: 20px;
+	padding: 6px;
+	font-size: 15px;
 	outline: none;
 	border-radius: 6px;
-	border: 2px solid  hsl(0 0 70);
+	border: 2px solid rgba(204, 204, 204 ,0.80);
 	background-color: white;
 	font-weight: 500;
-	color:rgb(64, 64, 64);
+	color:hsl(0, 0%, 32%);
+	
 	box-sizing: border-box;
 }
 textarea{
 	width: 100% !important;
-	min-height: 120px;
+	min-height: 80px;
 	resize: none;
 }
 
 input:focus,select:focus,textarea:focus{
-	border: 2px solid  hsl(0 0 55);
+	border: 2px solid  hsl(0 0 75);
 }
 
 button{
@@ -212,7 +215,7 @@ button{
 	align-items: center;
 	gap: 2.5px;
 	border: 0px;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 10px;
 	font-weight: 500;
 	background-color: rgb(242, 242, 242);
