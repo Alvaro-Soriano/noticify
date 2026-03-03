@@ -6,6 +6,7 @@
 	<title>Tests</title>
 	<script src="../js/cards.js"></script>
 	<link rel="stylesheet" href="../css/basic.css">
+	<link rel="stylesheet" href="../css/index.css">
 </head>
 
 <body>
@@ -15,13 +16,53 @@
 	</header>
 	<aside>
 		<nav>
-			<a href="">
+			<a href="./index.html">
 				<i class="fa-regular fa-house"></i>
 				Home
 			</a>
 		</nav>
 	</aside>
 	<main>
+		
+		<div class="searchForm">
+			<div class="formScaleCont">
+				<div>
+					<label for="tipoAviso">Tipo de aviso</label>
+					<input type="text" name="tipoAviso">
+				</div>
+				<div>
+					<label for="zona">Zona</label>
+					<input type="text" name="zona">
+				</div>
+				<div>
+					<label for="coordenadas">coordenadas</label>
+					<select name="coordenadas">
+						<option value="T">Todas</option>
+						<option value="S">Si</option>
+						<option value="N">No</option>
+					</select>
+				</div>
+				<div>
+					<label for="desdeFecha">Desde fecha</label>
+					<input type="date" name="desdeFecha">
+				</div>
+				<div>
+					<label for="hastaFecha">Hasta fecha</label>
+					<input type="date" name="hastaFecha">
+				</div>
+			</div>
+			<div class="formScaleCont">
+				<div>
+					<label for="textoAviso">Texto incluido en el aviso</label>
+					<textarea name="textoAviso"></textarea>
+				</div>
+				
+			</div>
+			<div class="formScaleCont">
+				<button>Limpiar</button>
+				<button class="blueButton">Buscar</button>
+			</div>
+		</div>
 		
 	</main>
 
