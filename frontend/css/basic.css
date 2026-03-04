@@ -67,7 +67,7 @@ aside > nav > a:hover,.navActive{
 
 main{
 	margin-left: 180px;
-	height: calc(100vh - 51px - 20px);
+	height: calc(100vh - 51px);
 	overflow-y: auto;
 	padding: 10px 10px;
 	transition: margin-left 320ms cubic-bezier(.2,.8,.2,1);
