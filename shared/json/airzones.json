@@ -1,0 +1,578 @@
+[
+  {
+    "icao": "KZAB",
+    "name": "Centro ARTCC de Albuquerque",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZAN",
+    "name": "Centro ARTCC de Anchorage",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZAU",
+    "name": "Centro ARTCC de Chicago",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZBW",
+    "name": "Centro ARTCC de Boston",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZDC",
+    "name": "Centro ARTCC de Washington",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZDV",
+    "name": "Centro ARTCC de Denver",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZFW",
+    "name": "Centro ARTCC de Fort Worth",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZHU",
+    "name": "Centro ARTCC de Houston",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZID",
+    "name": "Centro ARTCC de Indianápolis",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZJX",
+    "name": "Centro ARTCC de Jacksonville",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZKC",
+    "name": "Centro ARTCC de Kansas City",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZLA",
+    "name": "Centro ARTCC de Los Ángeles",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZLC",
+    "name": "Centro ARTCC de Salt Lake City",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZMA",
+    "name": "Centro ARTCC de Miami",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZME",
+    "name": "Centro ARTCC de Memphis",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZMP",
+    "name": "Centro ARTCC de Minneapolis",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZNY",
+    "name": "Centro ARTCC de Nueva York",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZOA",
+    "name": "Centro ARTCC de Oakland",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZOB",
+    "name": "Centro ARTCC de Cleveland",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "KZSE",
+    "name": "Centro ARTCC de Seattle",
+    "type": "ACC",
+    "country": "US"
+  },
+  {
+    "icao": "CZWX",
+    "name": "FIR Oceánica de Gander",
+    "type": "OCA",
+    "country": "CA"
+  },
+  {
+    "icao": "CZQX",
+    "name": "FIR de Moncton",
+    "type": "FIR",
+    "country": "CA"
+  },
+  {
+    "icao": "CZEG",
+    "name": "FIR de Edmonton",
+    "type": "FIR",
+    "country": "CA"
+  },
+  {
+    "icao": "CZYZ",
+    "name": "FIR de Toronto",
+    "type": "FIR",
+    "country": "CA"
+  },
+  {
+    "icao": "CZUL",
+    "name": "FIR de Montreal",
+    "type": "FIR",
+    "country": "CA"
+  },
+  {
+    "icao": "CZQM",
+    "name": "ACC de Moncton",
+    "type": "ACC",
+    "country": "CA"
+  },
+  {
+    "icao": "EGGX",
+    "name": "FIR Oceánica de Shanwick",
+    "type": "OCA",
+    "country": "GB"
+  },
+  {
+    "icao": "EGTT",
+    "name": "FIR de Londres",
+    "type": "FIR",
+    "country": "GB"
+  },
+  {
+    "icao": "EGPX",
+    "name": "FIR de Escocia",
+    "type": "FIR",
+    "country": "GB"
+  },
+  {
+    "icao": "EDGG",
+    "name": "FIR de Langen",
+    "type": "FIR",
+    "country": "DE"
+  },
+  {
+    "icao": "EDMM",
+    "name": "FIR de Múnich",
+    "type": "FIR",
+    "country": "DE"
+  },
+  {
+    "icao": "EDWW",
+    "name": "FIR de Bremen",
+    "type": "FIR",
+    "country": "DE"
+  },
+  {
+    "icao": "LFEE",
+    "name": "FIR de Reims",
+    "type": "FIR",
+    "country": "FR"
+  },
+  {
+    "icao": "LFBB",
+    "name": "FIR de Burdeos",
+    "type": "FIR",
+    "country": "FR"
+  },
+  {
+    "icao": "LFFF",
+    "name": "FIR de París",
+    "type": "FIR",
+    "country": "FR"
+  },
+  {
+    "icao": "LECM",
+    "name": "FIR de Madrid",
+    "type": "FIR",
+    "country": "ES"
+  },
+  {
+    "icao": "LECB",
+    "name": "FIR de Barcelona",
+    "type": "FIR",
+    "country": "ES"
+  },
+  {
+    "icao": "LIMM",
+    "name": "FIR de Milán",
+    "type": "FIR",
+    "country": "IT"
+  },
+  {
+    "icao": "LIRR",
+    "name": "FIR de Roma",
+    "type": "FIR",
+    "country": "IT"
+  },
+  {
+    "icao": "EHAA",
+    "name": "FIR de Ámsterdam",
+    "type": "FIR",
+    "country": "NL"
+  },
+  {
+    "icao": "EBBU",
+    "name": "FIR de Bruselas",
+    "type": "FIR",
+    "country": "BE"
+  },
+  {
+    "icao": "LSAS",
+    "name": "FIR de Suiza",
+    "type": "FIR",
+    "country": "CH"
+  },
+  {
+    "icao": "LOWW",
+    "name": "FIR de Viena",
+    "type": "FIR",
+    "country": "AT"
+  },
+  {
+    "icao": "EPWW",
+    "name": "FIR de Varsovia",
+    "type": "FIR",
+    "country": "PL"
+  },
+  {
+    "icao": "EKDK",
+    "name": "FIR de Copenhague",
+    "type": "FIR",
+    "country": "DK"
+  },
+  {
+    "icao": "ESAA",
+    "name": "FIR de Suecia",
+    "type": "FIR",
+    "country": "SE"
+  },
+  {
+    "icao": "EFIN",
+    "name": "FIR de Helsinki",
+    "type": "FIR",
+    "country": "FI"
+  },
+  {
+    "icao": "ENOR",
+    "name": "FIR de Noruega",
+    "type": "FIR",
+    "country": "NO"
+  },
+  {
+    "icao": "BIRD",
+    "name": "FIR de Reikiavik",
+    "type": "FIR",
+    "country": "IS"
+  },
+  {
+    "icao": "BGGL",
+    "name": "FIR de Groenlandia",
+    "type": "FIR",
+    "country": "DK"
+  },
+  {
+    "icao": "EZZZ",
+    "name": "EUROCONTROL",
+    "type": "ACC",
+    "country": "EU"
+  },
+  {
+    "icao": "DAAA",
+    "name": "FIR de Argel",
+    "type": "FIR",
+    "country": "DZ"
+  },
+  {
+    "icao": "DTTC",
+    "name": "FIR de Túnez",
+    "type": "FIR",
+    "country": "TN"
+  },
+  {
+    "icao": "HECC",
+    "name": "FIR de El Cairo",
+    "type": "FIR",
+    "country": "EG"
+  },
+  {
+    "icao": "DGAC",
+    "name": "FIR de Accra",
+    "type": "FIR",
+    "country": "GH"
+  },
+  {
+    "icao": "DNKK",
+    "name": "FIR de Kano",
+    "type": "FIR",
+    "country": "NG"
+  },
+  {
+    "icao": "DRRR",
+    "name": "FIR de Niamey",
+    "type": "FIR",
+    "country": "NE"
+  },
+  {
+    "icao": "FMMM",
+    "name": "FIR de Antananarivo",
+    "type": "FIR",
+    "country": "MG"
+  },
+  {
+    "icao": "FACA",
+    "name": "FIR de Ciudad del Cabo",
+    "type": "FIR",
+    "country": "ZA"
+  },
+  {
+    "icao": "FAJA",
+    "name": "FIR de Johannesburgo",
+    "type": "FIR",
+    "country": "ZA"
+  },
+  {
+    "icao": "HKNA",
+    "name": "FIR de Nairobi",
+    "type": "FIR",
+    "country": "KE"
+  },
+  {
+    "icao": "HAAA",
+    "name": "FIR de Adís Abeba",
+    "type": "FIR",
+    "country": "ET"
+  },
+  {
+    "icao": "OMAE",
+    "name": "FIR de Abu Dabi",
+    "type": "FIR",
+    "country": "AE"
+  },
+  {
+    "icao": "OBBB",
+    "name": "FIR de Baréin",
+    "type": "FIR",
+    "country": "BH"
+  },
+  {
+    "icao": "OAKX",
+    "name": "FIR de Kabul",
+    "type": "FIR",
+    "country": "AF"
+  },
+  {
+    "icao": "OPKR",
+    "name": "FIR de Karachi",
+    "type": "FIR",
+    "country": "PK"
+  },
+  {
+    "icao": "OKAC",
+    "name": "FIR de Kuwait",
+    "type": "FIR",
+    "country": "KW"
+  },
+  {
+    "icao": "OEJD",
+    "name": "FIR de Yeda",
+    "type": "FIR",
+    "country": "SA"
+  },
+  {
+    "icao": "OIII",
+    "name": "FIR de Teherán",
+    "type": "FIR",
+    "country": "IR"
+  },
+  {
+    "icao": "ZBAA",
+    "name": "FIR de Pekín",
+    "type": "FIR",
+    "country": "CN"
+  },
+  {
+    "icao": "ZGZU",
+    "name": "FIR de Guangzhou",
+    "type": "FIR",
+    "country": "CN"
+  },
+  {
+    "icao": "ZSHA",
+    "name": "FIR de Shanghái",
+    "type": "FIR",
+    "country": "CN"
+  },
+  {
+    "icao": "ZUUU",
+    "name": "FIR de Chengdu",
+    "type": "FIR",
+    "country": "CN"
+  },
+  {
+    "icao": "RJTD",
+    "name": "FIR de Tokio",
+    "type": "FIR",
+    "country": "JP"
+  },
+  {
+    "icao": "RJJJ",
+    "name": "FIR de Fukuoka",
+    "type": "FIR",
+    "country": "JP"
+  },
+  {
+    "icao": "RKRR",
+    "name": "FIR de Incheon",
+    "type": "FIR",
+    "country": "KR"
+  },
+  {
+    "icao": "VOMF",
+    "name": "FIR de Mumbai",
+    "type": "FIR",
+    "country": "IN"
+  },
+  {
+    "icao": "VIDF",
+    "name": "FIR de Delhi",
+    "type": "FIR",
+    "country": "IN"
+  },
+  {
+    "icao": "VHHK",
+    "name": "FIR de Hong Kong",
+    "type": "FIR",
+    "country": "CN"
+  },
+  {
+    "icao": "WSSS",
+    "name": "FIR de Singapur",
+    "type": "FIR",
+    "country": "SG"
+  },
+  {
+    "icao": "VTBB",
+    "name": "FIR de Bangkok",
+    "type": "FIR",
+    "country": "TH"
+  },
+  {
+    "icao": "YMMM",
+    "name": "FIR de Melbourne",
+    "type": "FIR",
+    "country": "AU"
+  },
+  {
+    "icao": "YBBB",
+    "name": "FIR de Brisbane",
+    "type": "FIR",
+    "country": "AU"
+  },
+  {
+    "icao": "YPDN",
+    "name": "FIR de Darwin",
+    "type": "FIR",
+    "country": "AU"
+  },
+  {
+    "icao": "NZZC",
+    "name": "ACC de Nueva Zelanda",
+    "type": "ACC",
+    "country": "NZ"
+  },
+  {
+    "icao": "NZZO",
+    "name": "FIR Oceánica de Auckland",
+    "type": "OCA",
+    "country": "NZ"
+  },
+  {
+    "icao": "AYPM",
+    "name": "FIR de Port Moresby",
+    "type": "FIR",
+    "country": "PG"
+  },
+  {
+    "icao": "AGGG",
+    "name": "FIR de Honiara",
+    "type": "FIR",
+    "country": "SB"
+  },
+  {
+    "icao": "ANAU",
+    "name": "FIR de Nauru",
+    "type": "FIR",
+    "country": "NR"
+  },
+  {
+    "icao": "SBAZ",
+    "name": "FIR Amazónica",
+    "type": "FIR",
+    "country": "BR"
+  },
+  {
+    "icao": "SBCW",
+    "name": "FIR de Curitiba",
+    "type": "FIR",
+    "country": "BR"
+  },
+  {
+    "icao": "SBBS",
+    "name": "FIR de Brasilia",
+    "type": "FIR",
+    "country": "BR"
+  },
+  {
+    "icao": "SCCF",
+    "name": "FIR de Santiago",
+    "type": "FIR",
+    "country": "CL"
+  },
+  {
+    "icao": "SAEF",
+    "name": "FIR de Ezeiza",
+    "type": "FIR",
+    "country": "AR"
+  },
+  {
+    "icao": "SPIM",
+    "name": "FIR de Lima",
+    "type": "FIR",
+    "country": "PE"
+  },
+  {
+    "icao": "SKED",
+    "name": "FIR de Bogotá",
+    "type": "FIR",
+    "country": "CO"
+  }
+]
