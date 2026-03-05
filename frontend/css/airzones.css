@@ -24,15 +24,17 @@ main{
 }
 .flagsContainer{
 	display: grid;
-	grid-template-columns: repeat(auto-fit,80px);
+	grid-template-columns: repeat(auto-fit,75px);
 	gap: 8px 3px;
 	width: 100%;
+	height: 80%;
 	margin-top: 5px;
+	overflow-y: scroll;
 	
 }
 
 .flagBlock{
-	width: 70px;
+	width: 64px;
 	height: 50px;
 	display: flex;
 	justify-content: center;
