@@ -3,16 +3,14 @@ main{
 }
 .airzonesSide{
 	width: 352px;
-	background-color: white;
 	position: relative;
 	top: 0px;
 	bottom: 0;
 	left: 1px;
 	overflow-y: auto;
-	border-right: 1px solid hsl(0 0% 85%);
 	transform: translateX(0);
 	opacity: 1;
-	height: 100%;
+	height: calc(100% - 20px);
 	padding: 10px;
 }
 
@@ -22,37 +20,20 @@ main{
 	font-weight: bold;
 	color: hsl(100 0% 19%);
 }
-.flagsContainer{
-	display: grid;
-	grid-template-columns: repeat(auto-fit,75px);
-	gap: 8px 3px;
-	width: 100%;
-	height: 80%;
-	margin-top: 5px;
-	overflow-y: scroll;
-	
+
+
+.airzonesSide details{
+	margin-bottom: 5px;
 }
 
-.flagBlock{
-	width: 64px;
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border:2px solid hsl(0, 0%, 78%);
-	background-color: hsl(0, 0%, 98%);
-	border-radius: 5px;
-}
+.airzoneCont{
+	height: clamp(100px, 25vh, 200px);
 
-.flagBlock > img{
-	object-fit: contain;
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-	width: 50px;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
 	.airzonesSide{
-		width: 100%;
+		width: calc(100% - 20px);
 		position: initial;
 		border-right: none;
 		border-bottom: 1px solid hsl(0 0% 85%);
@@ -62,33 +43,3 @@ main{
 	}
 }
 
-.airzone{
-	border:2px solid hsl(0, 0%, 78%);
-	background-color: hsl(0, 0%, 98%);
-	height: 60px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	border-radius: 10px;
-	padding: 5px 10px;
-}
-
-.airzoneTitle{
-	display: flex;
-	align-items: center;
-	gap: 5px;
-	font-size: 16px;
-}
-
-.airzoneFooter{
-	display: flex;
-	gap: 5px;
-}
-.airzoneFooter > span{
-	background-color: #8dbbec;
-	font-weight: 500;
-	color:#102441;
-	font-size: 13px;
-	border-radius: 10px;
-	padding: 3px 10px;
-}

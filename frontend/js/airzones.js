@@ -1,20 +1,31 @@
 const airzonesE = '/shared/json/airzones.json';
 const flagsFolders = '/frontend/imgs/flags/';
-const countryCont = document.getElementById('countryCont');
+const FIRCont = document.getElementById('FIRCont');
+const ACCCont = document.getElementById('ACCCont');
+const OCACont = document.getElementById('OCACont');
 
-fetch(airzonesE).then(d => d.json()).then((d)=>{
-	const countries = [...new Set(d.map((icao)=>icao.country))];
-	const types = [...new Set(d.map((icao)=>icao.type))];
-	console.log(types);
-	for(let con of countries){
-		const flagBlock = document.createElement('div');
-		flagBlock.classList.add('flagBlock');
-		const img = document.createElement('img');
-		img.src = flagsFolders + con+'.svg';
 
-		flagBlock.appendChild(img);
+function renderZones(parent,arr){
+	for(let a of arr){
+		const airzoneCard = document.createElement('airzone-card');
+		airzoneCard.dataset.icon =  flagsFolders+a.country+'.svg';
+		airzoneCard.dataset.label = a.name;
+		airzoneCard.dataset.icao = a.icao;
 
-		countryCont.appendChild(flagBlock);
+		parent.appendChild(airzoneCard);
+
 	}
-	console.log(countries);
+}
+
+
+fetch(airzonesE).then(data => data.json()).then((data)=>{
+	const firZones =data.filter((d)=> d.type == 'FIR');
+	const accZones =data.filter((d)=> d.type == 'ACC');
+	const ocaZones =data.filter((d)=> d.type == 'OCA');
+
+	renderZones(FIRCont,firZones);
+	renderZones(ACCCont,accZones);
+	renderZones(OCACont,ocaZones);
+
+
 })

@@ -201,7 +201,7 @@
   },
   {
     "icao": "CZWX",
-    "name": "FIR Oceánica de Gander",
+    "name": "Gander",
     "type": "OCA",
     "country": "CA",
     "coord": {
@@ -261,7 +261,7 @@
   },
   {
     "icao": "EGGX",
-    "name": "FIR Oceánica de Shanwick",
+    "name": "Shanwick",
     "type": "OCA",
     "country": "GB",
     "coord": {
@@ -851,7 +851,7 @@
   },
   {
     "icao": "NZZO",
-    "name": "FIR Oceánica de Auckland",
+    "name": "Auckland",
     "type": "OCA",
     "country": "NZ",
     "coord": {

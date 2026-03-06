@@ -308,10 +308,13 @@ class airZoneCard extends HTMLElement{
 				color: hsl(100 0% 20%);
 				display: flex;
 				gap: 15px;
-				min-height: 62px;
+				display:flex;
+				align-items:center;
+				border-bottom:2px solid hsl(0, 0%, 90%);
 			}
 			.airzoneFlag {
-				width: 70px;
+				width: 45px;
+				height:40px;
 				background-color: hsl(0, 0%, 93%);
 				border-radius: 5px;
 				display: flex;
@@ -319,20 +322,20 @@ class airZoneCard extends HTMLElement{
 				align-items: center;
 			}
 			.airzoneFlag > img{
-				width: 50px;
+				width: 25px;
 			}
 			
 			.airzoneSideContent{
 				display: flex;
-				flex-direction: column;
-				gap:7px;
+				align-items:center;
+				gap:5px;
 			}
 			.airzoneTitle{
 				display: flex;
 				align-items: center;
-				gap: 10px;
+				gap: 1px;
 				font-weight: 600;
-				font-size: 20px;
+				font-size: 16px;
 			}
 			
 
@@ -341,9 +344,13 @@ class airZoneCard extends HTMLElement{
 				color: #102441;
 				font-weight: 600;
 				border-radius: 8px;
-				font-size: 13px;
-				padding: 5px;
+				font-size: 9px;
+				padding: 2px;
 				width: 50px;
+				height:15px;
+				display:flex;
+				align-items:center;
+				justify-content:center;
 				text-align: center;
 			}
 
