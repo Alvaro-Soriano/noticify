@@ -1,578 +1,962 @@
 [
   {
     "icao": "KZAB",
-    "name": "Centro ARTCC de Albuquerque",
+    "name": "Albuquerque",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 33.208334,
+      "lon": -107.0
+    }
   },
   {
     "icao": "KZAN",
-    "name": "Centro ARTCC de Anchorage",
+    "name": "Anchorage",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 61.066666,
+      "lon": -165.9
+    }
   },
   {
     "icao": "KZAU",
-    "name": "Centro ARTCC de Chicago",
+    "name": "Chicago",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 42.170834,
+      "lon": -89.141667
+    }
   },
   {
     "icao": "KZBW",
-    "name": "Centro ARTCC de Boston",
+    "name": "Boston",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 43.80125,
+      "lon": -71.895834
+    }
   },
   {
     "icao": "KZDC",
-    "name": "Centro ARTCC de Washington",
+    "name": "Washington",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 36.45875,
+      "lon": -76.754167
+    }
   },
   {
     "icao": "KZDV",
-    "name": "Centro ARTCC de Denver",
+    "name": "Denver",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 40.46875,
+      "lon": -105.339584
+    }
   },
   {
     "icao": "KZFW",
-    "name": "Centro ARTCC de Fort Worth",
+    "name": "Fort Worth",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 33.5,
+      "lon": -97.811111
+    }
   },
   {
     "icao": "KZHU",
-    "name": "Centro ARTCC de Houston",
+    "name": "Houston",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 27.9159,
+      "lon": -92.7279
+    }
   },
   {
     "icao": "KZID",
-    "name": "Centro ARTCC de Indianápolis",
+    "name": "Indianápolis",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 38.545833,
+      "lon": -84.358334
+    }
   },
   {
     "icao": "KZJX",
-    "name": "Centro ARTCC de Jacksonville",
+    "name": "Jacksonville",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 30.826,
+      "lon": -82.345
+    }
   },
   {
     "icao": "KZKC",
-    "name": "Centro ARTCC de Kansas City",
+    "name": "Kansas City",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 38.120833,
+      "lon": -95.322222
+    }
   },
   {
     "icao": "KZLA",
-    "name": "Centro ARTCC de Los Ángeles",
+    "name": "Los Ángeles",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 34.68771,
+      "lon": -116.842213
+    }
   },
   {
     "icao": "KZLC",
-    "name": "Centro ARTCC de Salt Lake City",
+    "name": "Salt Lake City",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 43.20625,
+      "lon": -111.333334
+    }
   },
   {
     "icao": "KZMA",
-    "name": "Centro ARTCC de Miami",
+    "name": "Miami",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 26.703489,
+      "lon": -80.977275
+    }
   },
   {
     "icao": "KZME",
-    "name": "Centro ARTCC de Memphis",
+    "name": "Memphis",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 34.620834,
+      "lon": -90.422917
+    }
   },
   {
     "icao": "KZMP",
-    "name": "Centro ARTCC de Minneapolis",
+    "name": "Minneapolis",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 44.233334,
+      "lon": -92.676112
+    }
   },
   {
     "icao": "KZNY",
-    "name": "Centro ARTCC de Nueva York",
+    "name": "Nueva York",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 31.5,
+      "lon": -58.5
+    }
   },
   {
     "icao": "KZOA",
-    "name": "Centro ARTCC de Oakland",
+    "name": "Oakland",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 37.916667,
+      "lon": -122.004167
+    }
   },
   {
     "icao": "KZOB",
-    "name": "Centro ARTCC de Cleveland",
+    "name": "Cleveland",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 41.541667,
+      "lon": -80.833334
+    }
   },
   {
     "icao": "KZSE",
-    "name": "Centro ARTCC de Seattle",
+    "name": "Seattle",
     "type": "ACC",
-    "country": "US"
+    "country": "US",
+    "coord": {
+      "lat": 44.608334,
+      "lon": -121.333334
+    }
   },
   {
     "icao": "CZWX",
     "name": "FIR Oceánica de Gander",
     "type": "OCA",
-    "country": "CA"
+    "country": "CA",
+    "coord": {
+      "lat": 48.78,
+      "lon": -56.166667
+    }
   },
   {
     "icao": "CZQX",
-    "name": "FIR de Moncton",
+    "name": "Moncton",
     "type": "FIR",
-    "country": "CA"
+    "country": "CA",
+    "coord": {
+      "lat": 48.78,
+      "lon": -56.166667
+    }
   },
   {
     "icao": "CZEG",
-    "name": "FIR de Edmonton",
+    "name": "Edmonton",
     "type": "FIR",
-    "country": "CA"
+    "country": "CA",
+    "coord": {
+      "lat": 69.499861,
+      "lon": -99.376111
+    }
   },
   {
     "icao": "CZYZ",
-    "name": "FIR de Toronto",
+    "name": "Toronto",
     "type": "FIR",
-    "country": "CA"
+    "country": "CA",
+    "coord": {
+      "lat": 47.575,
+      "lon": -81.591805
+    }
   },
   {
     "icao": "CZUL",
-    "name": "FIR de Montreal",
+    "name": "Montreal",
     "type": "FIR",
-    "country": "CA"
+    "country": "CA",
+    "coord": {
+      "lat": 54.610695,
+      "lon": -68.5
+    }
   },
   {
     "icao": "CZQM",
     "name": "ACC de Moncton",
     "type": "ACC",
-    "country": "CA"
+    "country": "CA",
+    "coord": {
+      "lat": 45.183334,
+      "lon": -62.366685
+    }
   },
   {
     "icao": "EGGX",
     "name": "FIR Oceánica de Shanwick",
     "type": "OCA",
-    "country": "GB"
+    "country": "GB",
+    "coord": {
+      "lat": 53.0,
+      "lon": -22.5
+    }
   },
   {
     "icao": "EGTT",
-    "name": "FIR de Londres",
+    "name": "Londres",
     "type": "FIR",
-    "country": "GB"
+    "country": "GB",
+    "coord": {
+      "lat": 51.916667,
+      "lon": -1.5
+    }
   },
   {
     "icao": "EGPX",
-    "name": "FIR de Escocia",
+    "name": "Escocia",
     "type": "FIR",
-    "country": "GB"
+    "country": "GB",
+    "coord": {
+      "lat": 57.458333,
+      "lon": -2.5
+    }
   },
   {
     "icao": "EDGG",
-    "name": "FIR de Langen",
+    "name": "Langen",
     "type": "FIR",
-    "country": "DE"
+    "country": "DE",
+    "coord": {
+      "lat": 50.28,
+      "lon": 8.25
+    }
   },
   {
     "icao": "EDMM",
-    "name": "FIR de Múnich",
+    "name": "Múnich",
     "type": "FIR",
-    "country": "DE"
+    "country": "DE",
+    "coord": {
+      "lat": 49.711666,
+      "lon": 11.786666
+    }
   },
   {
     "icao": "EDWW",
-    "name": "FIR de Bremen",
+    "name": "Bremen",
     "type": "FIR",
-    "country": "DE"
+    "country": "DE",
+    "coord": {
+      "lat": 52.8,
+      "lon": 10.8
+    }
   },
   {
     "icao": "LFEE",
-    "name": "FIR de Reims",
+    "name": "Reims",
     "type": "FIR",
-    "country": "FR"
+    "country": "FR",
+    "coord": {
+      "lat": 48.78348,
+      "lon": 4.694757
+    }
   },
   {
     "icao": "LFBB",
-    "name": "FIR de Burdeos",
+    "name": "Burdeos",
     "type": "FIR",
-    "country": "FR"
+    "country": "FR",
+    "coord": {
+      "lat": 44.934622,
+      "lon": 1.280666
+    }
   },
   {
     "icao": "LFFF",
-    "name": "FIR de París",
+    "name": "París",
     "type": "FIR",
-    "country": "FR"
+    "country": "FR",
+    "coord": {
+      "lat": 48.822497,
+      "lon": 2.753086
+    }
   },
   {
     "icao": "LECM",
-    "name": "FIR de Madrid",
+    "name": "Madrid",
     "type": "FIR",
-    "country": "ES"
+    "country": "ES",
+    "coord": {
+      "lat": 41.5,
+      "lon": -3.5
+    }
   },
   {
     "icao": "LECB",
-    "name": "FIR de Barcelona",
+    "name": "Barcelona",
     "type": "FIR",
-    "country": "ES"
+    "country": "ES",
+    "coord": {
+      "lat": 40.3,
+      "lon": 1.45
+    }
   },
   {
     "icao": "LIMM",
-    "name": "FIR de Milán",
+    "name": "Milán",
     "type": "FIR",
-    "country": "IT"
+    "country": "IT",
+    "coord": {
+      "lat": 45.3699,
+      "lon": 8.9722
+    }
   },
   {
     "icao": "LIRR",
-    "name": "FIR de Roma",
+    "name": "Roma",
     "type": "FIR",
-    "country": "IT"
+    "country": "IT",
+    "coord": {
+      "lat": 42.15986,
+      "lon": 12.21696
+    }
   },
   {
     "icao": "EHAA",
-    "name": "FIR de Ámsterdam",
+    "name": "Ámsterdam",
     "type": "FIR",
-    "country": "NL"
+    "country": "NL",
+    "coord": {
+      "lat": 52.4,
+      "lon": 5.0
+    }
   },
   {
     "icao": "EBBU",
-    "name": "FIR de Bruselas",
+    "name": "Bruselas",
     "type": "FIR",
-    "country": "BE"
+    "country": "BE",
+    "coord": {
+      "lat": 50.652284,
+      "lon": 4.544189
+    }
   },
   {
     "icao": "LSAS",
-    "name": "FIR de Suiza",
+    "name": "Suiza",
     "type": "FIR",
-    "country": "CH"
+    "country": "CH",
+    "coord": {
+      "lat": 46.762858,
+      "lon": 7.862335
+    }
   },
   {
     "icao": "LOWW",
-    "name": "FIR de Viena",
+    "name": "Viena",
     "type": "FIR",
-    "country": "AT"
+    "country": "AT",
+    "coord": {
+      "lat": 47.3,
+      "lon": 14.15
+    }
   },
   {
     "icao": "EPWW",
-    "name": "FIR de Varsovia",
+    "name": "Varsovia",
     "type": "FIR",
-    "country": "PL"
+    "country": "PL",
+    "coord": {
+      "lat": 51.9968,
+      "lon": 18.63849
+    }
   },
   {
     "icao": "EKDK",
-    "name": "FIR de Copenhague",
+    "name": "Copenhague",
     "type": "FIR",
-    "country": "DK"
+    "country": "DK",
+    "coord": {
+      "lat": 56.472916,
+      "lon": 8.949445
+    }
   },
   {
     "icao": "ESAA",
-    "name": "FIR de Suecia",
+    "name": "Suecia",
     "type": "FIR",
-    "country": "SE"
+    "country": "SE",
+    "coord": {
+      "lat": 62.45,
+      "lon": 16.66
+    }
   },
   {
     "icao": "EFIN",
-    "name": "FIR de Helsinki",
+    "name": "Helsinki",
     "type": "FIR",
-    "country": "FI"
+    "country": "FI",
+    "coord": {
+      "lat": 63.733333,
+      "lon": 27.0
+    }
   },
   {
     "icao": "ENOR",
-    "name": "FIR de Noruega",
+    "name": "Noruega",
     "type": "FIR",
-    "country": "NO"
+    "country": "NO",
+    "coord": {
+      "lat": 62.525969,
+      "lon": 9.455475
+    }
   },
   {
     "icao": "BIRD",
-    "name": "FIR de Reikiavik",
+    "name": "Reikiavik",
     "type": "FIR",
-    "country": "IS"
+    "country": "IS",
+    "coord": {
+      "lat": 63.6,
+      "lon": -28.0
+    }
   },
   {
     "icao": "BGGL",
-    "name": "FIR de Groenlandia",
+    "name": "Groenlandia",
     "type": "FIR",
-    "country": "DK"
+    "country": "DK",
+    "coord": {
+      "lat": 75.5,
+      "lon": -30.0
+    }
   },
   {
     "icao": "EZZZ",
     "name": "EUROCONTROL",
     "type": "ACC",
-    "country": "EU"
+    "country": "EU",
+    "coord": {
+      "lat": null,
+      "lon": null
+    }
   },
   {
     "icao": "DAAA",
-    "name": "FIR de Argel",
+    "name": "Argel",
     "type": "FIR",
-    "country": "DZ"
+    "country": "DZ",
+    "coord": {
+      "lat": 28.975,
+      "lon": 1.666666
+    }
   },
   {
     "icao": "DTTC",
-    "name": "FIR de Túnez",
+    "name": "Túnez",
     "type": "FIR",
-    "country": "TN"
+    "country": "TN",
+    "coord": {
+      "lat": 34.615961,
+      "lon": 9.508024
+    }
   },
   {
     "icao": "HECC",
-    "name": "FIR de El Cairo",
+    "name": "El Cairo",
     "type": "FIR",
-    "country": "EG"
+    "country": "EG",
+    "coord": {
+      "lat": 27.998667,
+      "lon": 31.081334
+    }
   },
   {
     "icao": "DGAC",
-    "name": "FIR de Accra",
+    "name": "Accra",
     "type": "FIR",
-    "country": "GH"
+    "country": "GH",
+    "coord": {
+      "lat": 7.0,
+      "lon": 0.0
+    }
   },
   {
     "icao": "DNKK",
-    "name": "FIR de Kano",
+    "name": "Kano",
     "type": "FIR",
-    "country": "NG"
+    "country": "NG",
+    "coord": {
+      "lat": 8.442681,
+      "lon": 8.66818
+    }
   },
   {
     "icao": "DRRR",
-    "name": "FIR de Niamey",
+    "name": "Niamey",
     "type": "FIR",
-    "country": "NE"
+    "country": "NE",
+    "coord": {
+      "lat": 17.016667,
+      "lon": 3.25
+    }
   },
   {
     "icao": "FMMM",
-    "name": "FIR de Antananarivo",
+    "name": "Antananarivo",
     "type": "FIR",
-    "country": "MG"
+    "country": "MG",
+    "coord": {
+      "lat": -20.0,
+      "lon": 48.5
+    }
   },
   {
     "icao": "FACA",
-    "name": "FIR de Ciudad del Cabo",
+    "name": "Ciudad del Cabo",
     "type": "FIR",
-    "country": "ZA"
+    "country": "ZA",
+    "coord": {
+      "lat": -33.25,
+      "lon": 23.5
+    }
   },
   {
     "icao": "FAJA",
-    "name": "FIR de Johannesburgo",
+    "name": "Johannesburgo",
     "type": "FIR",
-    "country": "ZA"
+    "country": "ZA",
+    "coord": {
+      "lat": -27.566667,
+      "lon": 28.0
+    }
   },
   {
     "icao": "HKNA",
-    "name": "FIR de Nairobi",
+    "name": "Nairobi",
     "type": "FIR",
-    "country": "KE"
+    "country": "KE",
+    "coord": {
+      "lat": -0.351167,
+      "lon": 38.950528
+    }
   },
   {
     "icao": "HAAA",
-    "name": "FIR de Adís Abeba",
+    "name": "Adís Abeba",
     "type": "FIR",
-    "country": "ET"
+    "country": "ET",
+    "coord": {
+      "lat": 9.44375,
+      "lon": 40.500354
+    }
   },
   {
     "icao": "OMAE",
-    "name": "FIR de Abu Dabi",
+    "name": "Abu Dabi",
     "type": "FIR",
-    "country": "AE"
+    "country": "AE",
+    "coord": {
+      "lat": 24.441124,
+      "lon": 54.187345
+    }
   },
   {
     "icao": "OBBB",
-    "name": "FIR de Baréin",
+    "name": "Baréin",
     "type": "FIR",
-    "country": "BH"
+    "country": "BH",
+    "coord": {
+      "lat": 27.209287,
+      "lon": 50.275408
+    }
   },
   {
     "icao": "OAKX",
-    "name": "FIR de Kabul",
+    "name": "Kabul",
     "type": "FIR",
-    "country": "AF"
+    "country": "AF",
+    "coord": {
+      "lat": 33.951253,
+      "lon": 67.683334
+    }
   },
   {
     "icao": "OPKR",
-    "name": "FIR de Karachi",
+    "name": "Karachi",
     "type": "FIR",
-    "country": "PK"
+    "country": "PK",
+    "coord": {
+      "lat": 26.749449,
+      "lon": 67.256735
+    }
   },
   {
     "icao": "OKAC",
-    "name": "FIR de Kuwait",
+    "name": "Kuwait",
     "type": "FIR",
-    "country": "KW"
+    "country": "KW",
+    "coord": {
+      "lat": 29.178334,
+      "lon": 48.111389
+    }
   },
   {
     "icao": "OEJD",
-    "name": "FIR de Yeda",
+    "name": "Yeda",
     "type": "FIR",
-    "country": "SA"
+    "country": "SA",
+    "coord": {
+      "lat": 24.5,
+      "lon": 43.5
+    }
   },
   {
     "icao": "OIII",
-    "name": "FIR de Teherán",
+    "name": "Teherán",
     "type": "FIR",
-    "country": "IR"
+    "country": "IR",
+    "coord": {
+      "lat": 32.336067,
+      "lon": 54.182875
+    }
   },
   {
     "icao": "ZBAA",
-    "name": "FIR de Pekín",
+    "name": "Pekín",
     "type": "FIR",
-    "country": "CN"
+    "country": "CN",
+    "coord": {
+      "lat": 39.21968,
+      "lon": 114.74083
+    }
   },
   {
     "icao": "ZGZU",
-    "name": "FIR de Guangzhou",
+    "name": "Guangzhou",
     "type": "FIR",
-    "country": "CN"
+    "country": "CN",
+    "coord": {
+      "lat": 25.279167,
+      "lon": 111.341667
+    }
   },
   {
     "icao": "ZSHA",
-    "name": "FIR de Shanghái",
+    "name": "Shanghái",
     "type": "FIR",
-    "country": "CN"
+    "country": "CN",
+    "coord": {
+      "lat": 29.37925,
+      "lon": 118.17084
+    }
   },
   {
     "icao": "ZUUU",
-    "name": "FIR de Chengdu",
+    "name": "Chengdu",
     "type": "FIR",
-    "country": "CN"
+    "country": "CN",
+    "coord": {
+      "lat": 29.83459,
+      "lon": 103.65367
+    }
   },
   {
     "icao": "RJTD",
-    "name": "FIR de Tokio",
+    "name": "Tokio",
     "type": "FIR",
-    "country": "JP"
+    "country": "JP",
+    "coord": {
+      "lat": 38.91378,
+      "lon": 139.70258
+    }
   },
   {
     "icao": "RJJJ",
-    "name": "FIR de Fukuoka",
+    "name": "Fukuoka",
     "type": "FIR",
-    "country": "JP"
+    "country": "JP",
+    "coord": {
+      "lat": 33.87872,
+      "lon": 150.99769
+    }
   },
   {
     "icao": "RKRR",
-    "name": "FIR de Incheon",
+    "name": "Incheon",
     "type": "FIR",
-    "country": "KR"
+    "country": "KR",
+    "coord": {
+      "lat": 35.363245,
+      "lon": 127.34775
+    }
   },
   {
     "icao": "VOMF",
-    "name": "FIR de Mumbai",
+    "name": "Mumbai",
     "type": "FIR",
-    "country": "IN"
+    "country": "IN",
+    "coord": {
+      "lat": 13.059356,
+      "lon": 83.298053
+    }
   },
   {
     "icao": "VIDF",
-    "name": "FIR de Delhi",
+    "name": "Delhi",
     "type": "FIR",
-    "country": "IN"
+    "country": "IN",
+    "coord": {
+      "lat": 29.450719,
+      "lon": 77.265364
+    }
   },
   {
     "icao": "VHHK",
-    "name": "FIR de Hong Kong",
+    "name": "Hong Kong",
     "type": "FIR",
-    "country": "CN"
+    "country": "CN",
+    "coord": {
+      "lat": 20.166667,
+      "lon": 114.5
+    }
   },
   {
     "icao": "WSSS",
-    "name": "FIR de Singapur",
+    "name": "Singapur",
     "type": "FIR",
-    "country": "SG"
+    "country": "SG",
+    "coord": {
+      "lat": 4.833334,
+      "lon": 109.333334
+    }
   },
   {
     "icao": "VTBB",
-    "name": "FIR de Bangkok",
+    "name": "Bangkok",
     "type": "FIR",
-    "country": "TH"
+    "country": "TH",
+    "coord": {
+      "lat": 13.042771,
+      "lon": 101.083018
+    }
   },
   {
     "icao": "YMMM",
-    "name": "FIR de Melbourne",
+    "name": "Melbourne",
     "type": "FIR",
-    "country": "AU"
+    "country": "AU",
+    "coord": {
+      "lat": -46.0,
+      "lon": 119.0
+    }
   },
   {
     "icao": "YBBB",
-    "name": "FIR de Brisbane",
+    "name": "Brisbane",
     "type": "FIR",
-    "country": "AU"
+    "country": "AU",
+    "coord": {
+      "lat": -26.0,
+      "lon": 138.75
+    }
   },
   {
     "icao": "YPDN",
-    "name": "FIR de Darwin",
+    "name": "Darwin",
     "type": "FIR",
-    "country": "AU"
+    "country": "AU",
+    "coord": {
+      "lat": -12.779109,
+      "lon": 129.055511
+    }
   },
   {
     "icao": "NZZC",
     "name": "ACC de Nueva Zelanda",
     "type": "ACC",
-    "country": "NZ"
+    "country": "NZ",
+    "coord": {
+      "lat": -40.90855,
+      "lon": 172.51665
+    }
   },
   {
     "icao": "NZZO",
     "name": "FIR Oceánica de Auckland",
     "type": "OCA",
-    "country": "NZ"
+    "country": "NZ",
+    "coord": {
+      "lat": -40.0,
+      "lon": -170.0
+    }
   },
   {
     "icao": "AYPM",
-    "name": "FIR de Port Moresby",
+    "name": "Port Moresby",
     "type": "FIR",
-    "country": "PG"
+    "country": "PG",
+    "coord": {
+      "lat": -4.0,
+      "lon": 148.5
+    }
   },
   {
     "icao": "AGGG",
-    "name": "FIR de Honiara",
+    "name": "Honiara",
     "type": "FIR",
-    "country": "SB"
+    "country": "SB",
+    "coord": {
+      "lat": -9.416667,
+      "lon": 160.9375
+    }
   },
   {
     "icao": "ANAU",
-    "name": "FIR de Nauru",
+    "name": "Nauru",
     "type": "FIR",
-    "country": "NR"
+    "country": "NR",
+    "coord": {
+      "lat": -4.15,
+      "lon": 165.0
+    }
   },
   {
     "icao": "SBAZ",
     "name": "FIR Amazónica",
     "type": "FIR",
-    "country": "BR"
+    "country": "BR",
+    "coord": {
+      "lat": -6.051,
+      "lon": -57.65525
+    }
   },
   {
     "icao": "SBCW",
-    "name": "FIR de Curitiba",
+    "name": "Curitiba",
     "type": "FIR",
-    "country": "BR"
+    "country": "BR",
+    "coord": {
+      "lat": -25.166834,
+      "lon": -51.104167
+    }
   },
   {
     "icao": "SBBS",
-    "name": "FIR de Brasilia",
+    "name": "Brasilia",
     "type": "FIR",
-    "country": "BR"
+    "country": "BR",
+    "coord": {
+      "lat": -16.743175,
+      "lon": -48.318054
+    }
   },
   {
     "icao": "SCCF",
-    "name": "FIR de Santiago",
+    "name": "Santiago",
     "type": "FIR",
-    "country": "CL"
+    "country": "CL",
+    "coord": {
+      "lat": -22.983334,
+      "lon": -78.0
+    }
   },
   {
     "icao": "SAEF",
-    "name": "FIR de Ezeiza",
+    "name": "Ezeiza",
     "type": "FIR",
-    "country": "AR"
+    "country": "AR",
+    "coord": {
+      "lat": -42.0,
+      "lon": -49.0
+    }
   },
   {
     "icao": "SPIM",
-    "name": "FIR de Lima",
+    "name": "Lima",
     "type": "FIR",
-    "country": "PE"
+    "country": "PE",
+    "coord": {
+      "lat": -9.2,
+      "lon": -79.333334
+    }
   },
   {
     "icao": "SKED",
-    "name": "FIR de Bogotá",
+    "name": "Bogotá",
     "type": "FIR",
-    "country": "CO"
+    "country": "CO",
+    "coord": {
+      "lat": 2.210747,
+      "lon": -74.875487
+    }
   }
 ]

@@ -2,7 +2,7 @@ main{
 	padding: 0px;
 }
 .airzonesSide{
-	width: 252px;
+	width: 352px;
 	background-color: white;
 	position: relative;
 	top: 0px;
@@ -60,4 +60,35 @@ main{
 		display: grid;
 		grid-template-rows: 1fr;
 	}
+}
+
+.airzone{
+	border:2px solid hsl(0, 0%, 78%);
+	background-color: hsl(0, 0%, 98%);
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+.airzoneTitle{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 16px;
+}
+
+.airzoneFooter{
+	display: flex;
+	gap: 5px;
+}
+.airzoneFooter > span{
+	background-color: #8dbbec;
+	font-weight: 500;
+	color:#102441;
+	font-size: 13px;
+	border-radius: 10px;
+	padding: 3px 10px;
 }

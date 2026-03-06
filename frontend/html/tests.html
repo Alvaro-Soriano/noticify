@@ -82,6 +82,72 @@
 			<button class="redButton"><i class="fa-regular fa-trash-can"></i>Eliminar</button>
 			<button>Cancelar</button>
 		</div>
+		<style>
+			.airzoneCard{
+				padding: 10px;
+				background-color: white;
+				color: hsl(100 0% 20%);
+				display: flex;
+				gap: 10px;
+				min-height: 60px;
+			}
+			.airzoneFlag {
+				width: 70px;
+				background-color: hsl(0, 0%, 93%);
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.airzoneFlag > img{
+				width: 50px;
+			}
+			
+			.airzoneSideContent{
+				display: flex;
+				flex-direction: column;
+				gap: 5px;
+			}
+			.airzoneTitle{
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				font-weight: 600;
+				font-size: 20px;
+			}
+			
+	
+			.airzoneDetails{
+				display: flex;
+				gap: 5px;
+			}
+			.airzoneDetailsBubble{
+				background-color: #8dbbec;
+				color: #102441;
+				font-weight: 600;
+				border-radius: 8px;
+				font-size: 13px;
+				padding: 5px;
+			}
+
+		</style>
+
+		<div class="airzoneCard">
+			<div class="airzoneFlag">
+				<img src="../imgs/flags/ES.svg" alt="">
+			</div>
+
+			<div class="airzoneSideContent">
+				<div class="airzoneTitle">
+					<span>Madrid</span>
+				</div>
+				<div class="airzoneDetails">
+					<span class="airzoneDetailsBubble">LECM</span>
+				</div>
+			</div>
+		
+
+		</div>
 	</main>
 
 
