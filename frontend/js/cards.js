@@ -295,6 +295,89 @@ class statCard extends HTMLElement{
 	}
 }
 
+
+class airZoneCard extends HTMLElement{
+	constructor(){
+		super();
+		this.attachShadow({ mode: "open" });
+		this.shadowRoot.innerHTML = `
+		<style>
+			.airzoneCard{
+				padding: 10px;
+				background-color: white;
+				color: hsl(100 0% 20%);
+				display: flex;
+				gap: 15px;
+				min-height: 62px;
+			}
+			.airzoneFlag {
+				width: 70px;
+				background-color: hsl(0, 0%, 93%);
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.airzoneFlag > img{
+				width: 50px;
+			}
+			
+			.airzoneSideContent{
+				display: flex;
+				flex-direction: column;
+				gap:7px;
+			}
+			.airzoneTitle{
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				font-weight: 600;
+				font-size: 20px;
+			}
+			
+
+			.airzoneDetailsBubble{
+				background-color: #8dbbec;
+				color: #102441;
+				font-weight: 600;
+				border-radius: 8px;
+				font-size: 13px;
+				padding: 5px;
+				width: 50px;
+				text-align: center;
+			}
+
+		</style>
+
+		<div class="airzoneCard">
+			<div class="airzoneFlag">
+				<img src="../imgs/flags/ES.svg" alt="">
+			</div>
+			<div class="airzoneSideContent">
+				<span class="airzoneTitle">Madrid</span>
+				<div class="airzoneDetailsBubble">LECM</div>
+		</div>
+		</div>
+		`;
+	}
+	connectedCallback(){
+		const airzoneFlag = this.shadowRoot.querySelector('.airzoneFlag > img');
+		airzoneFlag.setAttribute('src',this.dataset.icon);
+
+		const airzoneTitle = this.shadowRoot.querySelector('.airzoneTitle');
+		airzoneTitle.textContent = this.dataset.label;
+
+		const airzoneDetailsBubble = this.shadowRoot.querySelector('.airzoneDetailsBubble');
+		airzoneDetailsBubble.textContent = this.dataset.icao;
+
+		this.onclick = ()=>{
+			window.location = this.getAttribute('href') ?? '#';
+		}
+		
+	}
+}
+
 customElements.define('notice-card', NotiCards);
 customElements.define('place-card', placeCard);
 customElements.define('stats-card', statCard);
+customElements.define('airzone-card', airZoneCard);

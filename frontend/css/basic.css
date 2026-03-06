@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css");
+:root{
+	--header-height: 57px;
+	--aside-width: 180px;
+}
 
 *{
 	font-family: "Sora", sans-serif;
@@ -16,23 +20,34 @@ body{
 	background-color: #f2f2f2;
 }
 
+body{
+	margin: 0;
+	overflow: hidden;
+}
+
 header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
 	padding: 10px;
 	font-size: 25px;
 	font-weight: bold;
 	background: linear-gradient(144deg,#1b5fac 17%, #774da4 100%);
-	color:white;
+	color: white;
 	display: flex;
 	align-items: center;
 	gap: 5px;
+	height: var(--header-height);
+	box-sizing: border-box;
 }
 
-
-aside {
-	width: 180px;
+aside{
+	width: var(--aside-width);
 	background-color: hsl(0 0% 98%);
 	position: fixed;
-	top: 51px;
+	top: var(--header-height);
 	bottom: 0;
 	left: 0;
 	overflow-y: auto;
@@ -40,9 +55,18 @@ aside {
 	transform: translateX(0);
 	opacity: 1;
 	transition: transform 0.3s ease, opacity 0.3s ease;
+	box-sizing: border-box;
 }
 
-
+main{
+	margin-left: var(--aside-width);
+	margin-top: var(--header-height);
+	height: calc(100vh - var(--header-height));
+	overflow-y: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: margin-left 320ms cubic-bezier(.2,.8,.2,1);
+}
 aside > nav{
 	display: flex;
 	flex-direction: column;
@@ -65,13 +89,7 @@ aside > nav > a:hover,.navActive{
 
 }
 
-main{
-	margin-left: 180px;
-	height: calc(100vh - 51px);
-	overflow-y: auto;
-	padding: 10px 10px;
-	transition: margin-left 320ms cubic-bezier(.2,.8,.2,1);
-}
+
 
 .menuOpenButton{
 	cursor: pointer;
@@ -157,7 +175,6 @@ aside.navHidden {
 	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 	gap: 12px;
 	padding: 10px;
-	padding-top: 20px;
 }
 
 .simpleScaleCont,.formScaleCont{
@@ -246,4 +263,31 @@ button:active,button:hover {
 	background-color: #E53935;
 	border: 2px solid #E53935;
 	color:white;
+}
+
+details{
+	border:1px solid	hsl(0, 0%, 80%);
+	border-radius: 5px;
+	background-color: white;
+}
+summary{
+	background-color: white;
+	border-bottom:1px solid	hsl(0, 0%, 80%);
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	cursor: pointer;
+	user-select: none;
+
+}
+.airzoneCont{
+	background-color:	hsl(0, 0%, 90%);
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	height: 250px;
+	overflow-y: scroll;
+	margin: 5px;
 }
