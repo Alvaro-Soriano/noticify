@@ -1,10 +1,10 @@
 main{
 	padding: 0px;
-	position: relative;
+	/*position: relative;*/
 }
 .airzonesSide{
 	width: 352px;
-	position: absolute;
+	position: relative;/*absolute;*/
 	z-index: 1000;
 
 	top: 0px;
