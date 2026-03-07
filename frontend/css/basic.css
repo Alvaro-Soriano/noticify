@@ -211,7 +211,7 @@ input,select,textarea {
 	font-size: 15px;
 	outline: none;
 	border-radius: 6px;
-	border:2px solid hsl(0, 0%, 78%);
+	border:2px solid hsl(0, 0%, 85%);
 	background-color: white;
 	font-weight: 500;
 	color: hsl(100 0% 24%);

@@ -27,8 +27,13 @@ main{
 }
 
 .airzoneCont{
-	height: clamp(100px, 25vh, 200px);
+	height: clamp(100px, 20vh, 200px);
 
+}
+@media (max-height: 720px) {
+  .airzoneCont {
+    height: clamp(100px, 10vh, 200px);
+  }
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
