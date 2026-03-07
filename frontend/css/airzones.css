@@ -1,9 +1,12 @@
 main{
 	padding: 0px;
+	position: relative;
 }
 .airzonesSide{
 	width: 352px;
-	position: relative;
+	position: absolute;
+	z-index: 1000;
+
 	top: 0px;
 	bottom: 0;
 	left: 1px;
@@ -48,3 +51,14 @@ main{
 	}
 }
 
+.airzoneSearch{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	margin-bottom: 10px;
+}
+.airzoneSearch > button{
+	width: 50px;
+	padding: 6px;
+	font-size: 15px;
+}
