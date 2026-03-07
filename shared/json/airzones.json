@@ -251,7 +251,7 @@
   },
   {
     "icao": "CZQM",
-    "name": "ACC de Moncton",
+    "name": "Moncton",
     "type": "ACC",
     "country": "CA",
     "coord": {
@@ -841,7 +841,7 @@
   },
   {
     "icao": "NZZC",
-    "name": "ACC de Nueva Zelanda",
+    "name": "Nueva Zelanda",
     "type": "ACC",
     "country": "NZ",
     "coord": {
