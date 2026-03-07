@@ -30,7 +30,7 @@ main{
 }
 
 .airzoneCont{
-	height: clamp(100px, 20vh, 200px);
+	height: clamp(100px, 22vh, 200px);
 
 }
 @media (max-height: 720px) {
